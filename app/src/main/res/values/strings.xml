@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">ERS</string>
+
+    <string name="ERS">Employee Resrvation App!</string>
+    <string name="EmpStart">Start As Employee</string>
+    <string name="login">Login!</string>
+
+    <string name="welcome_company1">Welcome to ERS/(Company)!</string>
+    <string name="welcome_company2">Submit ads and choose the best employees </string>
+    <string name="welcome_company3">One step login and be able to submit ads</string>
+
+    <string name="welcome_employee1">Welcome to ERS/(Employee)!</string>
+    <string name="welcome_employee2">Submit CVs and choose the best work place </string>
+    <string name="welcome_employee3">no login needed,Press Get Started and search for a Job!</string>
+    <string name="register">Do not have an acount?</string>
+    <string name="register1">Register now!</string>
+
+    <string name="Go_it1">NEXT>></string>
+    <string name="Go_it2">Get Started!</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="about">ERS is an Reservation System app was built to make employees and companies closer , and it is free for employees, paid for Companies that look for workers  Please tell your friends about our employee reservation system app.</string>
+    <string name="registerhelp">Get the access to our system, and be able to share your advertisements, and find your best employee.</string>
+    <string name="loginhelp">In order to enter to your account, Please Login with your unique ERS Mail, Password service, and also many other ways (Facebok, Google, Twitter), </string>
+    <string name="composehelp">Please fill up those fields and then press SUBMIT, to share your advertisement. You will be able to edit your Ads anytime you want, with no cost </string>
+    <string name="back"><![CDATA[< Back]]></string>
+    <string name="previous"><![CDATA[< Previous]]></string>
+    <string-array name="context_view">
+        <item>1956</item>
+        <item>1957</item>
+        <item>1958</item>
+        <item>1959</item>
+        <item>1960</item>
+        <item>1961</item>
+        <item>1962</item>
+        <item>1963</item>
+        <item>1964</item>
+        <item>1965</item>
+        <item>1966</item>
+        <item>1967</item>
+        <item>1968</item>
+        <item>1969</item>
+        <item>1970</item>
+        <item>1971</item>
+        <item>1972</item>
+        <item>1973</item>
+        <item>1974</item>
+        <item>1975</item>
+        <item>1976</item>
+        <item>1977</item>
+        <item>1978</item>
+        <item>1979</item>
+        <item>1980</item>
+        <item>1981</item>
+        <item>1982</item>
+        <item>1983</item>
+        <item>1984</item>
+        <item>1985</item>
+        <item>1986</item>
+        <item>1987</item>
+        <item>1988</item>
+        <item>1989</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toast_layout_root"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:paddingRight="12dp"
+    android:background="@drawable/success_toast">
+
+    <ImageView android:id="@+id/image"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/redirect"
+        android:alpha="0.5"
+        android:layout_marginRight="10dp" />
+
+    <TextView android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:textSize="13sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Enter A valid Salary"
+        android:layout_height="match_parent"
+        android:textColor="@color/gradstart" />
+</LinearLayout>

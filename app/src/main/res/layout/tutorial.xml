@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="700dp"
+    android:background="@color/gradstart"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:id="@+id/tut1"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Hello Admin"
+        android:id="@+id/hello"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="590dp"
+        android:src="@drawable/hello1"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="skip"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:id="@+id/skip"
+        android:layout_marginLeft="40dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layout_marginRight="40dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="next"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:id="@+id/next"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/tut2"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Hello Admin"
+            android:id="@+id/hello2"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:src="@drawable/hello2"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="skip"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/skip2"
+                    android:layout_marginLeft="40dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_marginRight="40dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="next"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/next2"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/tut3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Hello Admin"
+            android:id="@+id/hello3"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:src="@drawable/hello3"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="skip"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/skip3"
+                    android:layout_marginLeft="40dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_marginRight="40dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="next"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/next3"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/tut4"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Hello Admin"
+            android:id="@+id/hello4"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:src="@drawable/hello4"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="skip"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/skip4"
+                    android:layout_marginLeft="40dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_marginRight="40dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="next"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/next4"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

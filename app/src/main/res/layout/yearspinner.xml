@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/gradstart"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginRight="130dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"
+        android:text="Select Years "/>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="50dp"
+       >
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/yourid"
+        android:layout_marginLeft="30dp"
+        android:spinnerMode="dialog"
+        android:entries="@array/context_view"
+        />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="18sp"
+           android:text="Till"
+           android:layout_marginLeft="15dp"
+           android:textColor="@color/white"/>
+       <Spinner
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:id="@+id/yourid1"
+           android:spinnerMode="dialog"
+           android:entries="@array/context_view"
+           android:layout_marginLeft="50dp"
+           />
+
+   </LinearLayout>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_bg"
+        android:text="Select"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:id="@+id/chooseYear"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="@color/white"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.employee_app" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Employee_app" >
+        <activity android:name=".approved" >
+        </activity>
+        <activity android:name=".approve_Saved" />
+        <activity android:name=".approve_emp" />
+        <activity android:name=".inbox" />
+        <activity android:name=".job" />
+        <activity android:name=".contact_info" />
+        <activity android:name=".education" />
+        <activity android:name=".apply" />
+        <activity android:name=".about_emp" />
+        <activity android:name=".editpro" />
+        <activity android:name=".settings" />
+        <activity android:name=".add_cv" />
+        <activity android:name=".sendmail" />
+        <activity android:name=".profile" />
+        <activity android:name=".manage_ad" />
+        <activity android:name=".bookmark" />
+        <activity android:name=".drafts" />
+        <activity android:name=".admin" />
+        <activity android:name=".about" />
+        <activity android:name=".search" />
+        <activity android:name=".emp_inter" />
+        <activity android:name=".log_or_start" />
+        <activity android:name=".welcome3" />
+        <activity android:name=".welcome2" />
+        <activity android:name=".register" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

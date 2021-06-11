@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:background="#115a6e"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="60dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="50dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="Update,Submit Draft"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/title_Edit_draft"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:maxLength="25"
+            android:layout_marginTop="30dp"
+            android:hint="Job Tilte"
+            android:textColorHint="@color/gradstart"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/subtitle_edit_draft"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:hint="Job SubTilte"
+            android:maxLength="35"
+            android:textColorHint="@color/gradstart"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/salary_edit_draft"
+            android:textColor="@color/black"
+            android:focusableInTouchMode="false"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:hint="Salary"
+            android:textColorHint="@color/gradstart"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/phone_edit_draft"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Phone Number"
+            android:maxLength="16"
+            android:textColorHint="@color/gradstart"
+            android:paddingLeft="20dp"
+            android:inputType="phone"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/mail_edit_draft"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Email Address"
+            android:maxLength="16"
+            android:textColorHint="@color/gradstart"
+            android:paddingLeft="20dp"
+            android:inputType="textEmailAddress"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/address_edit_draft"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Location-Address"
+            android:textColorHint="@color/gradstart"
+            android:paddingLeft="20dp"
+            android:maxLength="40"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/details_edit_draft"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:hint="Details"
+            android:textColorHint="@color/gradstart"
+            android:paddingLeft="20dp"
+            android:inputType="textMultiLine"
+            android:maxLength="200"
+            tools:ignore="LabelFor"
+            android:lines="3"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/submit_draft"
+
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/white"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

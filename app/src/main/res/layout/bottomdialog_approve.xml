@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:background="@color/white"
+    >
+
+
+    <TextView
+        android:textColor="@color/gradstart"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Approve Resume"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/mailApprove"
+        android:background="@drawable/btn_bg"
+        android:layout_margin="10dp"
+        android:textColor="@color/gradstart"
+        android:text="Via Email Address"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/gradstart"
+
+        />
+
+    <Button
+        android:text="Via Phone Number"
+        android:textAllCaps="false"
+        android:textColor="@color/gradstart"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/phoneApprove"
+        android:background="@drawable/btn_bg"
+        android:layout_margin="10dp"
+        app:backgroundTint="@color/gradstart"
+
+        />
+</LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apply"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/grad_bg"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="60dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:baselineAligned="false"
+                android:paddingBottom="50dp"
+                android:text="4- Contact Info - Skills\n About."
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/phoneNumber_apply"
+            android:textColor="@color/black"
+            android:maxLength="16"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:hint="Phone Number"
+            android:textColorHint="@color/black"
+            android:paddingLeft="20dp"
+            android:inputType="phone"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/email_apply"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:maxLength="35"
+            android:hint="Email Address"
+            android:textColorHint="@color/black"
+            android:paddingLeft="20dp"
+            android:inputType="textEmailAddress"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/skills"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Skills, Hobbies"
+            android:maxLength="60"
+            android:textColorHint="@color/black"
+            android:paddingLeft="20dp"
+            android:textSize="16sp"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/about_emp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:hint="Describe yourself, workPlace, etc..."
+            android:textColorHint="@color/black"
+            android:maxLength="300"
+            android:paddingLeft="20dp"
+            android:inputType="textMultiLine"
+            tools:ignore="LabelFor"
+            android:lines="3"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:text="@string/previous"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/backToEducation"
+            android:textSize="18sp"
+            android:layout_marginTop="120dp"
+            android:background="@color/transparet"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/transparet"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:text="Apply"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/finalApply"
+            android:textSize="18sp"
+            android:layout_marginTop="120dp"
+            android:background="@color/transparet"
+            android:textColor="@color/white"
+            android:layout_marginLeft="190dp"
+            app:backgroundTint="@color/white"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

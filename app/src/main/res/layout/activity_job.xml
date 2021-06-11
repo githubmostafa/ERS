@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apply"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/grad_bg"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="60dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:baselineAligned="false"
+                android:paddingBottom="50dp"
+                android:text="3- Job experience"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/job1"
+            android:maxLength="30"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:hint="WorkPlace I"
+            android:textColorHint="@color/gradstart"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/jobdate1"
+            android:textColor="@color/black"
+            android:focusableInTouchMode="false"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:hint="Job years period"
+            android:textColorHint="@color/gradstart"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/job2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:maxLength="30"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:hint="WorkPlace II"
+            android:textColorHint="@color/gradstart"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+
+
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/jobdate2"
+            android:textColor="@color/black"
+            android:focusableInTouchMode="false"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:hint="Job years period"
+            android:textColorHint="@color/gradstart"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:text="@string/previous"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/backToEducation"
+            android:textSize="18sp"
+            android:layout_marginTop="180dp"
+            android:background="@color/transparet"
+            android:textColor="@color/white"
+
+            app:backgroundTint="@color/transparet"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:text="Next >"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/jobnext"
+            android:textSize="18sp"
+            android:background="@color/transparet"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/transparet"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="205dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

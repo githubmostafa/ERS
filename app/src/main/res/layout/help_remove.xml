@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gradstart"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Notice!"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="After removing this item will, you will no longer be able to access it again."
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <Button
+        android:id="@+id/goIt"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/white"
+        android:text="Go it"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/white"/>
+</LinearLayout>

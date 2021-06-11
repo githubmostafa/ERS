@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apply"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/grad_bg"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="60dp"
+        android:layout_marginTop="80dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="50dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="1- Basic Information"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/fullname"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:hint="Full Name"
+            android:maxLength="25"
+            android:textColorHint="@color/black"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/address_location"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:hint="Address"
+            android:maxLength="50"
+            android:textColorHint="@color/black"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:backgroundTint="@color/white"
+            android:background="@drawable/edittext_bg1"
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:hint="Age"
+            android:maxLength="2"
+            android:textColorHint="@color/black"
+            android:paddingLeft="20dp"
+            android:inputType="number"
+            tools:ignore="LabelFor" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:text="@string/back"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/backToEmp"
+            android:textSize="18sp"
+            android:layout_marginTop="210dp"
+            android:background="@color/transparet"
+            android:textColor="@color/white"
+
+            app:backgroundTint="@color/transparet"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:text="Next >"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/basicnext"
+            android:textSize="18sp"
+            android:background="@color/transparet"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/transparet"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="230dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

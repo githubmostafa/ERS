@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/gradstart"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Contact name"
+        android:id="@+id/contactname"/>
+
+    <Button
+        android:text="Via Phone Number"
+        android:textAllCaps="false"
+        android:textColor="@color/gradstart"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/phoneApproved"
+        android:background="@drawable/btn_bg"
+        android:layout_margin="10dp"
+        app:backgroundTint="@color/gradstart"
+
+        />
+
+    <Button
+        android:text="Via Email Address"
+        android:textAllCaps="false"
+        android:textColor="@color/gradstart"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/mailApproved"
+        android:background="@drawable/btn_bg"
+        android:layout_margin="10dp"
+        app:backgroundTint="@color/gradstart"
+
+        />
+
+
+
+</LinearLayout>
